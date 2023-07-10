@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<style name="Right.1" parent="android:Theme">
+        <item name="android:textViewStyle">@style/Right</item>
+    </style>
+    <style name="Right" parent="android:Widget.TextView">
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_ronded_r</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>-->
+</resources>

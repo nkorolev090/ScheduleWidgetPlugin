@@ -1,0 +1,61 @@
+<resources>
+
+    <style name="Theme.MyApplication.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <!-- Radius of the outer bound of widgets to make the rounded corners -->
+        <item name="appWidgetRadius">16dp</item>
+        <!--
+        Radius of the inner view's bound of widgets to make the rounded corners.
+        It needs to be 8dp or less than the value of appWidgetRadius
+        -->
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.MyApplication.AppWidgetContainer" parent="Theme.MyApplication.AppWidgetContainerParent">
+        <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+
+    <style name="days_item.1" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MainTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@drawable/app_widget_background</item>
+    </style>
+
+
+    <style name="Left" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:background">@drawable/bg_ronded_l</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_width">40pt</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+
+    <style name="Right" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_ronded_r</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style>
+</resources>
