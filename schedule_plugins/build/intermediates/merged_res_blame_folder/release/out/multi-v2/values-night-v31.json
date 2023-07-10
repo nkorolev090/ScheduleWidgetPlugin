@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.schedule_plugins-merged_res-27:/values-night-v31/values-night-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\79106\\Documents\\GitHub\\ScheduleWidgetPlugin\\schedule_plugins\\src\\main\\res\\values-night-v31\\themes.xml",
+                    "from": {
+                        "startLines": "21,17,38,5,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1003,831,1923,166,487",
+                        "endLines": "36,19,51,8,15",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "1917,997,2723,481,825"
+                    },
+                    "to": {
+                        "startLines": "2,18,21,35,39",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,974,1145,1950,2270",
+                        "endLines": "17,20,34,38,44",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "969,1140,1945,2265,2608"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.example.schedule_plugins-mergeReleaseResources-25:/values-night-v31/values-night-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\79106\\Documents\\GitHub\\ScheduleWidgetPlugin\\schedule_plugins\\src\\main\\res\\values-night-v31\\themes.xml",
+                    "from": {
+                        "startLines": "21,17,38,5,10",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1003,831,1923,166,487",
+                        "endLines": "36,19,51,8,15",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "1917,997,2723,481,825"
+                    },
+                    "to": {
+                        "startLines": "2,18,21,35,39",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,974,1145,1950,2270",
+                        "endLines": "17,20,34,38,44",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "969,1140,1945,2265,2608"
+                    }
+                }
+            ]
+        }
+    ]
+}

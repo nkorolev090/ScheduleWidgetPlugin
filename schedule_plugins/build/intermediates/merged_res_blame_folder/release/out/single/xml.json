@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.schedule_plugins-merged_res-27:/xml/schedule_widget_info.xml",
+        "source": "com.example.schedule_plugins-main-28:/xml/schedule_widget_info.xml"
+    },
+    {
+        "merged": "com.example.schedule_plugins-merged_res-27:/xml/schedule_widget_scroll_info.xml",
+        "source": "com.example.schedule_plugins-main-28:/xml/schedule_widget_scroll_info.xml"
+    }
+]

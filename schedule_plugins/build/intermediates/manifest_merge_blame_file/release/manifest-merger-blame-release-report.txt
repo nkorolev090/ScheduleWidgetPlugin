@@ -1,0 +1,59 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.schedule_plugins" >
+4
+5    <uses-sdk android:minSdkVersion="26" />
+5-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+6
+7    <application>
+7-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:4:5-31:19
+8        <receiver
+8-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:5:9-15:20
+9            android:name="com.example.schedule_plugins.ScheduleWidgetScroll"
+9-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:6:13-49
+10            android:exported="false" >
+10-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:7:13-37
+11            <intent-filter>
+11-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:8:13-10:29
+12                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+12-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:9:17-84
+12-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:9:25-81
+13            </intent-filter>
+14
+15            <meta-data
+15-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:12:13-14:71
+16                android:name="android.appwidget.provider"
+16-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:13:17-58
+17                android:resource="@xml/schedule_widget_scroll_info" />
+17-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:14:17-68
+18        </receiver>
+19        <receiver
+19-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:16:9-26:20
+20            android:name="com.example.schedule_plugins.ScheduleWidget"
+20-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:17:13-43
+21            android:exported="false" >
+21-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:18:13-37
+22            <intent-filter>
+22-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:8:13-10:29
+23                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+23-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:9:17-84
+23-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:9:25-81
+24            </intent-filter>
+25
+26            <meta-data
+26-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:12:13-14:71
+27                android:name="android.appwidget.provider"
+27-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:13:17-58
+28                android:resource="@xml/schedule_widget_info" />
+28-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:14:17-68
+29        </receiver>
+30
+31        <service
+31-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:28:9-30:72
+32            android:name="com.example.schedule_plugins.ScheduleWidgetService"
+32-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:29:13-50
+33            android:permission="android.permission.BIND_REMOTEVIEWS" />
+33-->C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:30:13-69
+34    </application>
+35
+36</manifest>

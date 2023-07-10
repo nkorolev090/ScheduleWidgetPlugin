@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res"><file name="example_appwidget_preview" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\drawable-nodpi\example_appwidget_preview.png" qualifiers="nodpi-v4" type="drawable"/><file name="app_widget_background" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\drawable-v21\app_widget_background.xml" qualifiers="v21" type="drawable"/><file name="app_widget_background_night" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\drawable-v21\app_widget_background_night.xml" qualifiers="v21" type="drawable"/><file name="app_widget_inner_view_background" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\drawable-v21\app_widget_inner_view_background.xml" qualifiers="v21" type="drawable"/><file name="bg_ronded_l" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\drawable-v21\bg_ronded_l.xml" qualifiers="v21" type="drawable"/><file name="bg_ronded_r" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\drawable-v21\bg_ronded_r.xml" qualifiers="v21" type="drawable"/><file name="linear_layout_item" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\layout\linear_layout_item.xml" qualifiers="" type="layout"/><file name="schedule_widget" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\layout\schedule_widget.xml" qualifiers="" type="layout"/><file name="schedule_widget_scroll" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\layout\schedule_widget_scroll.xml" qualifiers="" type="layout"/><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="AppWidgetAttrs">
+        <attr format="dimension" name="appWidgetPadding"/>
+        <attr format="dimension" name="appWidgetInnerRadius"/>
+        <attr format="dimension" name="appWidgetRadius"/>
+    </declare-styleable></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values\colors.xml" qualifiers=""><color name="light_blue_50">#FFE1F5FE</color><color name="light_blue_200">#FF81D4FA</color><color name="light_blue_600">#FF039BE5</color><color name="light_blue_900">#FF01579B</color><color name="transparent">#00000000</color><color name="light_purple">#F9D8FF</color><color name="dark_purple">#530070</color><color name="light_green">#a4f86f</color><color name="dark_green">#153800</color><color name="light_red">#ffdad5</color><color name="dark_red">#690002</color><color name="light_blue">#dde1ff</color><color name="dark_blue">#002585</color><color name="light_yellow">#ffdf91</color><color name="dark_yellow">#3d2e00</color><color name="light_rose">#ffd7ef</color><color name="dark_rose">#5e0051</color><color name="light_cyan">#7bf8d9</color><color name="dark_cyan">#00382d</color><color name="light_orange">#ffdcc3</color><color name="dark_orange">#4d2600</color><color name="light_azure">#a0efff</color><color name="dark_azure">#00363e</color></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values\dimens.xml" qualifiers=""><dimen name="widget_margin">0dp</dimen></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values\left_style.xml" qualifiers=""/><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values\right_style.xml" qualifiers=""/><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values\strings.xml" qualifiers=""><string name="appwidget_text">EXAMPLE</string><string name="add_widget">Add widget</string><string name="app_widget_description">This is an app widget description</string></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values\styles.xml" qualifiers=""><style name="Widget.MyApplication.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:background">?android:attr/colorBackground</item>
+    </style><style name="Widget.MyApplication.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values\themes.xml" qualifiers=""><style name="Theme.MyApplication.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        
+        <item name="appWidgetRadius">16dp</item>
+        
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style><style name="Theme.MyApplication.AppWidgetContainer" parent="Theme.MyApplication.AppWidgetContainerParent">
+        
+        <item name="appWidgetPadding">16dp</item>
+    </style><style name="days_item.1" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="MainTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@drawable/app_widget_background</item>
+    </style><style name="Left" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:background">@drawable/bg_ronded_l</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_width">40pt</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style><style name="Right" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_ronded_r</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values-night-v31\themes.xml" qualifiers="night-v31"><style name="Theme.MyApplication.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="appWidgetRadius">@android:dimen/system_app_widget_background_radius</item>
+        <item name="appWidgetInnerRadius">@android:dimen/system_app_widget_inner_radius</item>
+    </style><style name="days_item.1" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="MainTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@drawable/app_widget_background_night</item>
+    </style><style name="Left" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:background">@drawable/bg_ronded_l</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_width">40pt</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style><style name="Right" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_ronded_r</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values-v21\styles.xml" qualifiers="v21"><style name="Widget.MyApplication.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:padding">?attr/appWidgetPadding</item>
+        <item name="android:background">@drawable/app_widget_background</item>
+    </style><style name="Widget.MyApplication.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:padding">?attr/appWidgetPadding</item>
+        <item name="android:background">@drawable/app_widget_inner_view_background</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values-v31\styles.xml" qualifiers="v31"><style name="Widget.MyApplication.AppWidget.Container" parent="android:Widget">
+        <item name="android:id">@android:id/background</item>
+        <item name="android:padding">?attr/appWidgetPadding</item>
+        <item name="android:background">@drawable/app_widget_background</item>
+        <item name="android:clipToOutline">true</item>
+    </style><style name="Widget.MyApplication.AppWidget.InnerView" parent="android:Widget">
+        <item name="android:padding">?attr/appWidgetPadding</item>
+        <item name="android:background">@drawable/app_widget_inner_view_background</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:clipToOutline">true</item>
+    </style></file><file path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\values-v31\themes.xml" qualifiers="v31"><style name="Theme.MyApplication.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="appWidgetRadius">@android:dimen/system_app_widget_background_radius</item>
+        <item name="appWidgetInnerRadius">@android:dimen/system_app_widget_inner_radius</item>
+    </style><style name="days_item.1" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="MainTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:background">@drawable/app_widget_background</item>
+    </style><style name="Left" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:background">@drawable/bg_ronded_l</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:layout_width">40pt</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style><style name="Right" parent="@android:style/Theme.DeviceDefault.DayNight">
+        <item name="android:textStyle">italic</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/bg_ronded_r</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_height">30pt</item>
+        <item name="android:textColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">3dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+    </style></file><file name="schedule_widget_info" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\xml\schedule_widget_info.xml" qualifiers="" type="xml"/><file name="schedule_widget_scroll_info" path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\res\xml\schedule_widget_scroll_info.xml" qualifiers="" type="xml"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\release\res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\build\generated\res\resValues\release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\build\generated\res\resValues\release"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AppWidgetAttrs">
+        <attr format="dimension" name="appWidgetPadding"/>
+        <attr format="dimension" name="appWidgetInnerRadius"/>
+        <attr format="dimension" name="appWidgetRadius"/>
+    </declare-styleable></configuration></mergedItems></merger>
