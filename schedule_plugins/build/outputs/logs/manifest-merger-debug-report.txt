@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:2:1-34:12
+INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:2:1-34:12
+	package
+		INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:2:1-34:12
+		INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:4:5-31:19
+receiver#com.example.schedule_plugins.ScheduleWidgetScroll
+ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:5:9-15:20
+	android:exported
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:7:13-37
+	android:name
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:6:13-49
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:8:13-10:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:9:17-84
+	android:name
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:9:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:12:13-14:71
+	android:resource
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:13:17-58
+receiver#com.example.schedule_plugins.ScheduleWidget
+ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:16:9-26:20
+	android:exported
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:17:13-43
+service#com.example.schedule_plugins.ScheduleWidgetService
+ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:28:9-30:72
+	android:permission
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml:29:13-50
+uses-sdk
+INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+		ADDED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\79106\Documents\GitHub\ScheduleWidgetPlugin\schedule_plugins\src\main\AndroidManifest.xml
