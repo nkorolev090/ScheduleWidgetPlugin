@@ -61,10 +61,13 @@ id widget_scroll_empty_view
 id widget_scroll_view
 id widget_stack_view
 layout linear_layout_item
+layout preview_scroll
+layout preview_stack
 layout schedule_widget
 layout schedule_widget_scroll
 string add_widget
-string app_widget_description
+string app_widget_description_scroll
+string app_widget_description_stack
 string appwidget_text
 style Left
 style MainTheme
