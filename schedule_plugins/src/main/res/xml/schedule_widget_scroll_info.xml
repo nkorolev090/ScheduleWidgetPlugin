@@ -5,7 +5,7 @@
     android:initialLayout="@layout/schedule_widget_scroll"
     android:minWidth="270dp"
     android:minHeight="240dp"
-    android:previewImage="@drawable/example_appwidget_preview"
+    android:previewImage="@drawable/scroll_preview"
     android:previewLayout="@layout/preview_scroll"
     android:resizeMode="horizontal|vertical"
     android:targetCellWidth="4"

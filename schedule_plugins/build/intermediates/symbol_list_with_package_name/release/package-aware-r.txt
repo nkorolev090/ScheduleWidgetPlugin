@@ -32,6 +32,8 @@ drawable app_widget_inner_view_background
 drawable bg_ronded_l
 drawable bg_ronded_r
 drawable example_appwidget_preview
+drawable scroll_preview
+drawable stack_preview
 id layoutDate
 id liner0
 id liner1
