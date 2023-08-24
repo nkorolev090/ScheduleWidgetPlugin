@@ -32,6 +32,8 @@ drawable app_widget_inner_view_background
 drawable bg_ronded_l
 drawable bg_ronded_r
 drawable example_appwidget_preview
+drawable scroll_preview_image
+drawable stack_preview_image
 id layoutDate
 id liner0
 id liner1
@@ -61,10 +63,13 @@ id widget_scroll_empty_view
 id widget_scroll_view
 id widget_stack_view
 layout linear_layout_item
+layout preview_scroll
+layout preview_stack
 layout schedule_widget
 layout schedule_widget_scroll
 string add_widget
-string app_widget_description
+string app_widget_description_scroll
+string app_widget_description_stack
 string appwidget_text
 style Left
 style MainTheme

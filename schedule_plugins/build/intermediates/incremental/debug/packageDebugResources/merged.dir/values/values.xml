@@ -25,7 +25,8 @@
     <color name="transparent">#00000000</color>
     <dimen name="widget_margin">0dp</dimen>
     <string name="add_widget">Add widget</string>
-    <string name="app_widget_description">This is an app widget description</string>
+    <string name="app_widget_description_scroll">Расписание(Scroll)</string>
+    <string name="app_widget_description_stack">Расписание(Stack)</string>
     <string name="appwidget_text">EXAMPLE</string>
     <style name="Left" parent="@android:style/Theme.DeviceDefault">
         <item name="android:textStyle">bold</item>
