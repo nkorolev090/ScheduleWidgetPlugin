@@ -171,9 +171,9 @@
                     "from": {
                         "startLines": "3,4,5,2",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "106,156,233,55",
+                        "startOffsets": "109,160,238,57",
                         "endColumns": "49,76,74,50",
-                        "endOffsets": "151,228,303,101"
+                        "endOffsets": "154,232,308,103"
                     },
                     "to": {
                         "startLines": "1881,1883,1884,1886",
@@ -595,9 +595,9 @@
                     "from": {
                         "startLines": "3,4,5,2",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "106,156,233,55",
+                        "startOffsets": "109,160,238,57",
                         "endColumns": "49,76,74,50",
-                        "endOffsets": "151,228,303,101"
+                        "endOffsets": "154,232,308,103"
                     },
                     "to": {
                         "startLines": "1881,1883,1884,1886",

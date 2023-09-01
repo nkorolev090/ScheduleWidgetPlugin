@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:theme="@style/MainTheme"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/layoutDate"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        android:contentDescription="Update"
+        android:text="День"
+
+        android:theme="@style/days_item.1"
+        />
+
+    <LinearLayout
+        android:id="@+id/parsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/liner0"
+            style="@style/Theme.MyApplication.AppWidgetContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView0"
+
+                style="@style/Left"
+                android:text="8:00 - 9:35"
+                android:visibility="invisible" />
+
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/Right"
+                android:layout_width="match_parent"
+
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner1"
+            style="@style/Theme.MyApplication.AppWidgetContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/Left"
+
+                android:text="9:50 - 11:25"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/Right"
+                android:layout_width="match_parent"
+
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner2"
+            style="@style/Theme.MyApplication.AppWidgetContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/Left"
+
+
+                android:text="11:40 - 13:15"
+
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/Right"
+                android:layout_width="match_parent"
+
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner3"
+            style="@style/Theme.MyApplication.AppWidgetContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/Left"
+
+
+                android:text="14:00 - 15:35"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView13"
+                style="@style/Right"
+                android:layout_width="match_parent"
+
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner4"
+            style="@style/Theme.MyApplication.AppWidgetContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/Left"
+                android:text="15:50 - 17:25"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView14"
+                style="@style/Right"
+                android:layout_width="match_parent"
+
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner5"
+            style="@style/Theme.MyApplication.AppWidgetContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/Left"
+
+
+                android:text="17:40 - 19:15"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView15"
+                style="@style/Right"
+                android:layout_width="match_parent"
+
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/liner6"
+            style="@style/Theme.MyApplication.AppWidgetContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/Left"
+
+
+                android:text="19:25 - 21:00"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/textView16"
+                style="@style/Right"
+                android:layout_width="match_parent"
+
+                android:visibility="invisible" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
