@@ -30,8 +30,8 @@ public class ScheduleWidgetService extends RemoteViewsService {
    static class ScheduleWidgetItemFactory implements RemoteViewsFactory{
 
         private Context context;
-        private static String dataPath = "/storage/emulated/0/Android/data/ru.ispu.mess/files/ScheduleData.json";//
-       private static String color_dataPath = "/storage/emulated/0/Android/data/ru.ispu.mess/files/ColorData.json";//com.example.UnityPlugins
+        private static String dataPath = "/storage/emulated/0/Android/data/gl.fx.ispu/files/ScheduleData.json";//
+       private static String color_dataPath = "/storage/emulated/0/Android/data/gl.fx.ispu/files/ColorData.json";//com.example.UnityPlugins
         private static String[] times = {"8:00-9:35","9:50-11:25","11:40-13:15","14:00-15:35","15:50-17:25","17:40-19:15","19:25-21:00"};
         private static ScheduleDay[] data;
         /*private static int mainColor = R.color.coffe;

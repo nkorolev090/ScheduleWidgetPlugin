@@ -33,7 +33,7 @@ import java.util.List;
 
 
 
-    static String IdDath = "/storage/emulated/0/Android/data/ru.ispu.mess/cache/ScrollWidgetId.bin";//com.example.UnityPlugins//ru.ispu.mess
+    static String IdDath = "/storage/emulated/0/Android/data/gl.fx.ispu/cache/ScrollWidgetId.bin";//com.example.UnityPlugins//ru.ispu.mess
 
 
     static void UpdateFromUnity(){
