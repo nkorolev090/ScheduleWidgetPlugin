@@ -40,7 +40,7 @@ public class ScheduleWidgetService extends RemoteViewsService {
        private static int labColor = android.R.color.holo_red_light;
 */
        private static ScheduleColor scheduleColor;
-       private static int timeColor = android.R.color.holo_blue_light;
+       //private static int timeColor = android.R.color.holo_blue_light;
        private static int[] liners = {R.id.liner0, R.id.liner1, R.id.liner2, R.id.liner3, R.id.liner4, R.id.liner5, R.id.liner6};
        private static int mainLayout = R.id.main_layout;
        private static int dateLayout = R.id.layoutDate;
@@ -94,6 +94,7 @@ public class ScheduleWidgetService extends RemoteViewsService {
             }
             json = null;
             f = new File(color_dataPath);
+            scheduleColor = new ScheduleColor();
             if(f.exists()) {
                 try {
                     byte[] buffer = Files.readAllBytes(Paths.get(color_dataPath));
@@ -103,7 +104,7 @@ public class ScheduleWidgetService extends RemoteViewsService {
                 }
                 if(json != null){
                     JSONObject result = new JSONObject(json);
-                    scheduleColor = new ScheduleColor();
+
                     scheduleColor.setMainColor((Integer) result.get("mainColor"));
                     scheduleColor.setLecColor((Integer)result.get("lecColor"));
                     scheduleColor.setSemColor((Integer)result.get("semColor"));

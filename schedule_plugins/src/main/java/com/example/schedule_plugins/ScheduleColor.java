@@ -7,6 +7,14 @@ public class ScheduleColor {
     private int labColor;
     private int timeColor;
 
+    public ScheduleColor(){
+        mainColor = 0;
+        lecColor = 0;
+        semColor = 0;
+        labColor = 0;
+        timeColor = 0;
+    }
+
     public int getLabColor() {
         return labColor;
     }
